@@ -2,7 +2,7 @@
 
 (require racket/contract/base
          racket/class
-         racket/draw
+         (only-in racket/draw/private/color color%)
          racket/match
          racket/format
          racket/list
